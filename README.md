@@ -27,7 +27,7 @@ The endpoint is accessable trough a `POST` request, where the body is expected t
 Optionaly the query parameter 'n' can be specified on the required amount of view spots, if left empty it will return all suitable view points.
 
 ### Json Mesh Format
-```json
+```ts
 {
     nodes: [
         {id: <node_id>, x: <x_pos>, y: <y_pos>},
